@@ -16,24 +16,3 @@ module.exports = function(input) {
     }
   }
 }
-
-/*if(!(/\D/g.test(input))){
-    //console.log('proceeding with unix - all digits input')
-    let unixDate = input;
-    let humanDate = moment.unix(input);
-    output.natural = moment(humanDate).format('MMMM DD, YYYY');
-    output.unix = Number(input);
-    res.send(output);
-  } else {
-    //perform validation
-    if (moment(input).isValid()){
-      output.natural = moment(input).format('MMMM DD, YYYY');
-      output.unix =  Number(moment(input).format('X'));
-      res.send(output);
-    } else {
-      output.natural = null;
-      output.unix =  null;
-      res.send(output);
-    }
-  }
-});*/
