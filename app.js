@@ -14,4 +14,4 @@ app.get('/:data', function(req, res) {
   res.send(dateChecker(req.params.data));
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 8080);
