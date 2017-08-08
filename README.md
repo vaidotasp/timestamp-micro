@@ -16,6 +16,7 @@ API accepts input as URL, checks for UNIX or natural time and provides an output
 ### Example usage:
 
 `https://vp-timestamp-micro.herokuapp.com/December%2015,%202015`
+
 `https://vp-timestamp-micro.herokuapp.com/1450137600`
 
 ### Example output:
