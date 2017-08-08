@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
-
 const dateChecker = require('./modules/dateChecker.js');
 
+app.use(express.static('public'));
 
 app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html', function(err) {
